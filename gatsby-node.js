@@ -57,7 +57,7 @@ const svgo = new SVGO({
     { removeAttributesBySelector: false },
     { removeElementsByAttr: false },
     { addClassesToSVGElement: false },
-    { removeStyleElement: false },
+    { removeStyleElement: true },
     { removeScriptElement: false },
     { addAttributesToSVGElement: false },
     { removeOffCanvasPaths: true },
